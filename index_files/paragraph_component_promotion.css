@@ -1,0 +1,64 @@
+.promotion-container {
+  text-align: center; }
+  .promotion-container .main-header .promotion-header {
+    font-size: 40px;
+    line-height: 0.88; }
+  .promotion-container .second-header {
+    padding-bottom: 16px; }
+    .promotion-container .second-header .promotion-second-header {
+      font-size: 25px;
+      letter-spacing: -0.2px;
+      margin: 0; }
+  .promotion-container .main-paragraph {
+    padding: 0 200px;
+    font-size: 20px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.1;
+    letter-spacing: normal;
+    margin-bottom: 30px; }
+  .promotion-container .button-wrapper div {
+    display: inline-flex; }
+    .promotion-container .button-wrapper div div {
+      margin: 0 15px; }
+  .promotion-container.promotion-paragraph-sec-display {
+    text-align: start; }
+    .promotion-container.promotion-paragraph-sec-display .promotion-header {
+      font-size: 64px;
+      font-weight: bold;
+      line-height: normal; }
+    .promotion-container.promotion-paragraph-sec-display .main-paragraph {
+      padding: 0;
+      margin-bottom: 40px;
+      font-size: 24px;
+      font-weight: 500;
+      line-height: 1.25; }
+    .promotion-container.promotion-paragraph-sec-display .button-wrapper div div {
+      margin: 10px; }
+
+@media (max-width: 768px) {
+  .promotion-container .main-header, .promotion-container .promotion-header {
+    font-size: 35px !important; }
+  .promotion-container .second-header {
+    padding-bottom: 11px; }
+  .promotion-container .second-header, .promotion-container .promotion-second-header {
+    font-size: 20px; }
+  .promotion-container .main-paragraph {
+    font-size: 16px;
+    padding: 0 15px;
+    line-height: 1.13;
+    margin-bottom: 28px; }
+  .promotion-container .button-wrapper div {
+    display: block; }
+    .promotion-container .button-wrapper div div {
+      margin: 15px auto 0; }
+      .promotion-container .button-wrapper div div a {
+        font-size: 18px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1;
+        letter-spacing: -0.11px; }
+      .promotion-container .button-wrapper div div:after {
+        top: 2px; } }
